@@ -1,0 +1,161 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.top{
+    margin-left: 50px;
+    padding-top: 20px;
+    height:100px;
+    background-color:aliceblue;
+    display: flex;
+    align-items: centre;
+}
+
+
+.img{
+    height:70px;
+    width:100px;
+    background: url("Screenshot\ 2024-01-18\ 011025.png");
+    background-size: cover;
+    border-radius: 50%;
+
+}
+#name{
+    font-family: Open-Sans;
+    font-size:25px;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+#nav{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 300px;
+    font-size: 20px;
+    display: inline-block;
+}
+.student{
+    height: 100px;
+    width: 100px;
+}
+.item {
+    display: inline-block;
+    margin: 10px 45px;
+    position: relative;
+    font-size:25px;
+    color: black;
+
+}
+.about{
+    /* margin-left:20px;
+    margin-top: 20px; */
+    background: url("Untitled\ design\ \(10\).png");
+    background-size: 100%;
+    height:800px;
+    overflow: hidden;
+
+}
+.student{
+    height: 85px;
+    align-items: center;
+    width: 700px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.item a{
+   text-decoration: none;
+   list-style: none;
+
+}
+.item a::after{
+    content:'';
+    width:0px;
+    height:8px;
+    background:yellow;
+    position: absolute;
+    left: 0px;
+    bottom:-4px;
+    transition: 0.25s;
+
+}
+.item a:hover::after{
+    width:100%;
+}
+
+.page{
+    
+    background: url("Untitled\ design\ \(9\).png");
+    height: 800px;
+    color:red;
+    background-size: 100%;
+    font-weight: bolder;
+
+}
+.text{
+    padding: 150px;
+
+}
+.stuff{
+    padding: 100px;
+   
+}
+
+    .sec{
+        display:flex;
+        margin-left:20px;
+        margin-top: 20px;
+        overflow: hidden;
+    
+    }
+    .sub{
+        margin: 20px 20px;
+        cursor: pointer;
+        margin-left:20px;
+        margin-top: 20px;
+    }
+    .expansion{
+        margin:4px 40px;
+        position: absolute;
+
+}
+.skills{
+    background-color: black;
+    color: white;
+    border: solid white 5px;
+    position: absolute;
+    transform:translateX(10000vh);
+    height: 200px;
+    width: 400px;
+    padding: 40px;
+
+}
+
+    .contact{
+        margin-left:50px;
+        margin-top: 20px;
+    }
+
+footer{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+
+    } 
+   .profile{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin:20px 20px;
+    }
+
+
+
+
+
+
+
+
